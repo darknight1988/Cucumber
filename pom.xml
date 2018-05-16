@@ -5,6 +5,15 @@
 	<groupId>com.learautomation.cucumber</groupId>
 	<artifactId>com.learautomation.cucumber</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<serenity.version>1.9.14</serenity.version>
+		<webdriver.driver>Chrome</webdriver.driver>
+		<webdriver.chrome.driver>D:\\9_Selenium_grid\\chromedriver.exe</webdriver.chrome.driver>
+	</properties>
+
+
 	<dependencies>
 		<dependency>
 			<groupId>info.cukes</groupId>
@@ -30,6 +39,36 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.11.0</version>
 		</dependency>
-	
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-core</artifactId>
+			<version>${serenity.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-screenplay</artifactId>
+			<version>${serenity.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-screenplay-webdriver</artifactId>
+			<version>${serenity.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-junit</artifactId>
+			<version>${serenity.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-cucumber -->
+		<dependency>
+			<groupId>net.serenity-bdd</groupId>
+			<artifactId>serenity-cucumber</artifactId>
+			<version>1.9.4</version>
+		</dependency>
+
 	</dependencies>
 </project>
