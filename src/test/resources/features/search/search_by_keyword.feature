@@ -16,13 +16,14 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-#@tag
+@tag
 Feature: Searching by keywords
   In order to find items that I would like to purchase
   As a potential buyer
   I want to be able to search for items containing certain words
 
-  #@tag1
+  @tag1
+   
   Scenario: Searching by keywords
     Should list items related to a specified keyword
 

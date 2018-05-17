@@ -6,8 +6,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features")
-public class searchByKeyword {
+@CucumberOptions(features="src/test/resources/features/search/search_by_keyword.feature")
+public class TestSearchByKeyword {
 	
 	
 }
